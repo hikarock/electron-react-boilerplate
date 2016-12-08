@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script>require('electron-connect').client.create()</script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    require('./dest/renderer.js')
+  </script>
+</html>
